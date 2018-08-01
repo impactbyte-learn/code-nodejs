@@ -1,7 +1,7 @@
 const colors = require("colors");
 
-const PEOPLE = require("./data_people.js");
-const SAIYANS = require("./data_saiyans.js");
+const PEOPLE = require("./data/people.js");
+const SAIYANS = require("./data/saiyans.js");
 
 const displayContacts = DATA => {
 	const MAPPED_DATA = DATA.map(({ name, phoneNumber }) => {
